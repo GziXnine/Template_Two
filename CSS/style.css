@@ -642,14 +642,14 @@ header nav .form i {
   height: 100%;
 }
 
-.video-section img {
+.video-section video {
   width: 100%;
   position: absolute;
   z-index: -1;
 }
 
 @media(max-width: 767px) {
-  .video-section img {
+  .video-section video {
     height: 270px;
     max-width: 100%;
   }
