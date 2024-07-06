@@ -37,7 +37,7 @@ Welcome to the **Template Two** project repository! This template is a cutting-e
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/YourUsername/Template_Two.git
+    git clone https://github.com/AllamF5J/Template_Two.git
     ```
 2. **Navigate to the project folder**:
     ```bash
