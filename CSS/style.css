@@ -262,9 +262,9 @@ header nav .form i {
 
 /* ! Start Landing */
 .landing {
-  min-height: 88vh;
+  min-height: 100vh;
   background-color: black;
-  background-image: url(../images/landing.jpg);
+  background-image: url(../images/landing.webp);
   background-size: cover;
   position: relative;
 }
@@ -1134,6 +1134,7 @@ header nav .form i {
 }
 
 .subscribe form input[type="email"] {
+  position: relative;
   border: 1px solid white;
   border-right: none;
   background: none;
@@ -1141,6 +1142,12 @@ header nav .form i {
   caret-color: var(--main-color);
   width: calc(100% - 30px);
   margin-left: -100px;
+
+  @media(max-width: 1200px) {
+    width: 60%;
+    margin-left: 0px;
+
+  }
 }
 
 .subscribe form input[type="submit"] {
